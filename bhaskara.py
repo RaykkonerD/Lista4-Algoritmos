@@ -13,5 +13,6 @@ if a:
     print("A equação possui duas raízes:")
     print(f"x': {(-b+(delta**(1/2)))/(2*a)}")
     print(f"x'': {(-b-(delta**(1/2)))/(2*a)}")
+      
 else:
     print("O elemento A = 0. Impossível calcular as raízes. (Não tem raízes reais)")
